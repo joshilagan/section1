@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <section class="player">
+            <div class="pic">
+                <img class="disc" src="./img/disc.png" alt="" width="188">
+                <img class="taylor" src="./img/taylor.png" alt="" width="200">
+            </div>
+            <audio src="" id="audio"></audio>
+
+            <div class="details">
+                <h3 class="song-name">All Too Well (Taylor's Version)</h3>
+                <p class="artist">Taylor Swift</p>
+            </div>
+
+            <div class="slider">
+                <span class="start-time">00:00</span>
+                <span class="running-time">00:00</span>
+                <input type="range" value="0" class="seek-bar">
+            </div>
+
+            <div class="player-control">
+                <button class="btn backButton">
+                    <img class="back" src="/img/back.png" alt="back" width="40" height="38">
+                </button>
+                <button class="play pause">
+                    <span></span>
+                    <span></span>
+                    <button class="btn forwardButton">
+                        <img class="forward" src="/img/forwrd.png" alt="forwardz" width="40" height="38">
+                    </button>
+                </button>
+            </div>
+
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
